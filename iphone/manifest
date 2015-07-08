@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: TiMTBBarcodeScanner
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: TiMTBBarcodeScanner
+moduleid: im.ysk.TiMTBBarcodeScanner
+guid: 519aea25-60e4-42a0-8c13-6fb50fc5c545
+platform: iphone
+minsdk: 4.0.0.GA
