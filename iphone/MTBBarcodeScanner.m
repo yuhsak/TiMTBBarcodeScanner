@@ -151,6 +151,7 @@ CGFloat const kFocalPointOfInterestY = 0.5;
 
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
+    [super dealloc];
 }
 
 #pragma mark - Scanning
